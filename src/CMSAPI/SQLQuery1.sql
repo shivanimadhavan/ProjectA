@@ -1,0 +1,3 @@
+
+
+sp_help AppointmentTable
