@@ -5,18 +5,46 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Views\Appointments\**" />
+    <Compile Remove="Views\DocDetails\**" />
+    <Compile Remove="Views\FrontStaffs\**" />
+    <Compile Remove="Views\PatientDetails\**" />
+    <Compile Remove="Views\UserLogins\**" />
+    <Compile Remove="Views\UserLogin\**" />
     <Compile Remove="wwwroot\NewFolder1\**" />
     <Compile Remove="wwwroot\NewFolder2\**" />
     <Compile Remove="wwwroot\NewFolder3\**" />
     <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="Controllers\**" />
+    <Content Remove="Views\Appointments\**" />
+    <Content Remove="Views\DocDetails\**" />
+    <Content Remove="Views\FrontStaffs\**" />
+    <Content Remove="Views\PatientDetails\**" />
+    <Content Remove="Views\UserLogins\**" />
+    <Content Remove="Views\UserLogin\**" />
     <Content Remove="wwwroot\NewFolder1\**" />
     <Content Remove="wwwroot\NewFolder2\**" />
     <Content Remove="wwwroot\NewFolder3\**" />
     <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Views\Appointments\**" />
+    <EmbeddedResource Remove="Views\DocDetails\**" />
+    <EmbeddedResource Remove="Views\FrontStaffs\**" />
+    <EmbeddedResource Remove="Views\PatientDetails\**" />
+    <EmbeddedResource Remove="Views\UserLogins\**" />
+    <EmbeddedResource Remove="Views\UserLogin\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder2\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder3\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Views\Appointments\**" />
+    <None Remove="Views\DocDetails\**" />
+    <None Remove="Views\FrontStaffs\**" />
+    <None Remove="Views\PatientDetails\**" />
+    <None Remove="Views\UserLogins\**" />
+    <None Remove="Views\UserLogin\**" />
     <None Remove="wwwroot\NewFolder1\**" />
     <None Remove="wwwroot\NewFolder2\**" />
     <None Remove="wwwroot\NewFolder3\**" />
@@ -34,6 +62,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
 </Project>

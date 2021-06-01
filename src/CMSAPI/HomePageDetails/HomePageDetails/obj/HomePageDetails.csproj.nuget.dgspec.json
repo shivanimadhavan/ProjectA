@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91638\\Desktop\\FinalProject\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj": {}
+    "C:\\Users\\91638\\Desktop\\ProjectA\\src\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91638\\Desktop\\FinalProject\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj": {
+    "C:\\Users\\91638\\Desktop\\ProjectA\\src\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91638\\Desktop\\FinalProject\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj",
+        "projectUniqueName": "C:\\Users\\91638\\Desktop\\ProjectA\\src\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj",
         "projectName": "HomePageDetails",
-        "projectPath": "C:\\Users\\91638\\Desktop\\FinalProject\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj",
+        "projectPath": "C:\\Users\\91638\\Desktop\\ProjectA\\src\\CMSAPI\\HomePageDetails\\HomePageDetails\\HomePageDetails.csproj",
         "packagesPath": "C:\\Users\\91638\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91638\\Desktop\\FinalProject\\CMSAPI\\HomePageDetails\\HomePageDetails\\obj\\",
+        "outputPath": "C:\\Users\\91638\\Desktop\\ProjectA\\src\\CMSAPI\\HomePageDetails\\HomePageDetails\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -73,6 +73,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

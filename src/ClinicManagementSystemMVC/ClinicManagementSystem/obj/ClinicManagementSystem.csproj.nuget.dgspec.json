@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91638\\Desktop\\FinalProject\\ClinicManagementSystem\\ClinicManagementSystem\\ClinicManagementSystem.csproj": {}
+    "C:\\Users\\91638\\Desktop\\ProjectA\\src\\ClinicManagementSystemMVC\\ClinicManagementSystem\\ClinicManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91638\\Desktop\\FinalProject\\ClinicManagementSystem\\ClinicManagementSystem\\ClinicManagementSystem.csproj": {
+    "C:\\Users\\91638\\Desktop\\ProjectA\\src\\ClinicManagementSystemMVC\\ClinicManagementSystem\\ClinicManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91638\\Desktop\\FinalProject\\ClinicManagementSystem\\ClinicManagementSystem\\ClinicManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\91638\\Desktop\\ProjectA\\src\\ClinicManagementSystemMVC\\ClinicManagementSystem\\ClinicManagementSystem.csproj",
         "projectName": "ClinicManagementSystem",
-        "projectPath": "C:\\Users\\91638\\Desktop\\FinalProject\\ClinicManagementSystem\\ClinicManagementSystem\\ClinicManagementSystem.csproj",
+        "projectPath": "C:\\Users\\91638\\Desktop\\ProjectA\\src\\ClinicManagementSystemMVC\\ClinicManagementSystem\\ClinicManagementSystem.csproj",
         "packagesPath": "C:\\Users\\91638\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91638\\Desktop\\FinalProject\\ClinicManagementSystem\\ClinicManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\91638\\Desktop\\ProjectA\\src\\ClinicManagementSystemMVC\\ClinicManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

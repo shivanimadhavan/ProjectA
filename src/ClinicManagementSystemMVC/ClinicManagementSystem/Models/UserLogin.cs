@@ -8,10 +8,15 @@ namespace ClinicManagementSystem.Models
 {
     public class UserLogin
     {
-        public string UserName { get; set; }
+         [Key]
+        [Required(ErrorMessage = "Enter Username")]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$", ErrorMessage = "special characters are not allowed.")]
+        public string Username { get; set; }
         [Required]
-        [RegularExpression(@"^(?=.[a-z])(?=.[A-Z])(?=.*\d).{8,15}$")]
+        //[RegularExpression(@"^(?=.[a-z])(?=.[A-Z])(?=.*\d).{8,15}$")]
 
         public string Password { get; set; }
     }
 }
+
+    
